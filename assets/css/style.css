@@ -1,0 +1,93 @@
+#main {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#inputArea input {
+    margin: 5px;
+}
+
+#txtTask {
+    width: 400px;
+    height: 30px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ul li div {
+    display: inline-block;
+}
+
+ul li input[type="radio"] {
+    display: none;
+}
+
+ul li input[type="radio"]:checked + label div.btn-radio {
+    color: #fff;
+    background-color: #1a73ff;
+}
+
+#tblTaskList {
+    table-layout: fixed;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 720px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#tblTaskList th {
+    border-bottom: 2px solid #888
+}
+
+#tblTaskList th.th-timestamp {
+    width: 170px;
+}
+
+#tblTaskList th.th-button {
+    width: 100px;
+}
+
+#tblTaskList td {
+    padding: 5px 2px;
+    border-top: 1px solid #888;
+}
+
+.btn {
+    width: 80px;
+    padding: 7px 3px;
+    color: #333;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.btn-status-1 {
+    color: #f00;
+    border-color: #f00;
+}
+
+.btn-status-2 {
+    color: #ffae23;
+    border-color: #ffae23;
+}
+
+.btn-status-3 {
+    color: #fff;
+    background-color: #4aaa52;
+}
+
+.btn-delete {
+    color: #fff;
+    background-color: #f00;
+    border-color: #a00;
+}
